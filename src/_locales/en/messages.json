@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "nBother",
+    "description": "Extension name."
+  },
+  "extensionDescription": {
+    "message": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!",
+    "description": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!"
+  },
+  "extensionEnabled": {
+    "message": "nBother enabled",
+    "description": "Extension enabled"
+  },
+  "extensionDisabled": {
+    "message": "nBother disabled",
+    "description": "Extension disabled"
+  }
+}

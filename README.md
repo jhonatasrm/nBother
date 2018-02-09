@@ -1,0 +1,26 @@
+# nBother
+
+Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
+
+This repository is available under the [Mozilla License Public License Version 2.0](https://github.com/jhonatasrm/nBother/blob/master/LICENSE)
+
+## Requirements
+
+* Firefox 58.0.1 or later
+
+## How to test this webextension
+
+Clone this repository git clone ```https://github.com/jhonatasrm/nBother.git```
+
+In the Firefox address bar type ```about:debugging```
+
+Click ```Load Temporary Add-on```, a dialog window opens.
+
+In the cloned repository, select the ```manifest.json``` file. The webextension icon will appear in your toolbar.
+
+## How Contribute
+
+Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/nBother/issues).
+
+## Learn More
+To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
