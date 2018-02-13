@@ -20,16 +20,7 @@
     "16": "/res/icons/nBother_unabled-16.png",
     "32": "/res/icons/nBother_unabled-32.png"
   },
-	"default_title": "__MSG_extensionName__",
-	"theme_icons": [{
-    "light": "/res/icons/nBother_unabled-16.png",
-		"dark": "/res/icons/nBother_unabled-16.png",
-		"size": 16
-		},{
-		"light": "/res/icons/nBother_unabled-32.png",
-		"dark": "/res/icons/nBother_unabled-32.png",
-		"size": 32
-    }]
+	"default_title": "__MSG_extensionName__"
 	},
 	"background": {
   	"scripts": ["/js/background.js"]

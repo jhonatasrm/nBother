@@ -8,11 +8,11 @@
     "description": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!"
   },
   "extensionEnabled": {
-    "message": "nBother enabled",
-    "description": "Extension enabled"
+    "message": "nBother Enabled\n Click to disable",
+    "description": "nBother Enabled\n Click to disable"
   },
   "extensionDisabled": {
-    "message": "nBother disabled",
-    "description": "Extension disabled"
+    "message": "nBother Disabled\n Click to enable",
+    "description": "nBother Disabled\n Click to enable"
   }
 }
