@@ -3,13 +3,8 @@
 	"name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
 	"version": "1.0",
-	"homepage_url": "http://www.google.com",
+	"homepage_url": "https://github.com/jhonatasrm/nBother",
 	"default_locale": "en",
-	"applications": {
-	"gecko": {
-		"strict_min_version": "58.0.1"
-		}
-	},
 	"icons": {
   	"48": "/res/icons/icon.png",
   	"96": "/res/icons/icon@2x.png"
@@ -27,7 +22,6 @@
 	},
 	"permissions": [
 		"tabs",
-    "storage",
 		"browserSettings"
 	]
 }

@@ -2,10 +2,6 @@
 
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
-## Requirements
-
-* Firefox 58.0.1 or later
-
 ## How to test this webextension
 
 1. Clone this repository git clone ```https://github.com/jhonatasrm/nBother.git```
