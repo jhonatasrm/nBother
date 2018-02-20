@@ -8,7 +8,7 @@ Tired of receiving page notifications or being bothered by them asking permissio
 
 * Firefox 58.0 or later
 
-## How to test this webextension
+## How to test this extension
 
 1. Clone this repository git clone ```https://github.com/jhonatasrm/nBother.git```
 
