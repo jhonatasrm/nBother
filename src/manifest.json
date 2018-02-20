@@ -8,7 +8,6 @@
 	"author": "Jhonatas Rodrigues",
 	"applications": {
 	"gecko": {
-		"id": "nBother@jhonatasrm.com",
 		"strict_min_version": "58.0"
 	}
 },

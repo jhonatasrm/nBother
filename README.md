@@ -1,3 +1,6 @@
+[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/nBother.svg">](https://img.shields.io/github/license/jhonatasrm/nBother.svg)
+[<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/nBother.svg">](https://img.shields.io/github/stars/jhonatasrm/nBother.svg)
+[<img align="right" src="https://img.shields.io/github/release/jhonatasrm/nBother.svg">](https://img.shields.io/github/release/jhonatasrm/nBother.svg)
 # nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
