@@ -4,6 +4,8 @@
 # nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
+![nBother Screenshot](nBother.gif)
+
 ## Requirements
 
 * Firefox 58.0 or later
