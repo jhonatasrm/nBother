@@ -3,7 +3,6 @@ browser.browserSettings.webNotificationsDisabled.set({value: true});
 var iconLocal = "../res/icons/nBother_enabled-32.png";
 var iconLocalOff = "../res/icons/nBother_enabled_off-32.png";
 
-browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionEnabled")});
 browser.tabs.onUpdated.addListener(verifyPage);
 
 function startnBother() {

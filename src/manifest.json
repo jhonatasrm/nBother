@@ -21,7 +21,7 @@
 			"16": "/res/icons/nBother_enabled-16.png",
 			"32": "/res/icons/nBother_enabled-32.png"
 		},
-		"default_title": "__MSG_extensionName__"
+		"default_title": "__MSG_extensionEnabled__"
 	},
 	"background": {
 		"scripts": ["/js/background.js"]
