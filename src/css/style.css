@@ -3,8 +3,8 @@
 }
 .down-arrow {
     display:inline;
-    position: absolute;
-    right:50%;
+    position: static;
+    margin-left:48%;
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
@@ -16,8 +16,8 @@
 }
 .up-arrow {
     display:none;
-    position: absolute;
-	right: 50%;
+    position: static;
+	margin-left: 48%;
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
