@@ -61,7 +61,13 @@
     "message": "Fix bug start page"
   },
   "release5d": {
-    "message": "v1.3.1 (13 de Janeiro de 2019)"
+    "message": "v1.3.1 (January 13, 2019)"
+  },
+    "release6": {
+    "message": "Performance improvements<br>Strings fixes"
+  },
+  "release6d": {
+    "message": "v1.4 (January 13, 2019)"
   },
   "changelog": {
     "message": "Changelog"

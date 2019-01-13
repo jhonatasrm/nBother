@@ -63,6 +63,12 @@
   "release5d": {
     "message": "v1.3.1 (13 de Janeiro de 2019)"
   },
+  "release6": {
+    "message": "Melhorias de desempenho<br>Correções de Strings"
+  },
+  "release6d": {
+    "message": "v1.4 (13 de Janeiro de 2019)"
+  },
   "changelog": {
     "message": "Alterações"
   },
