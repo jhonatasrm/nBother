@@ -3,6 +3,14 @@ browser.browserSettings.webNotificationsDisabled.set({value: true});
 var iconLocal = "../res/icons/nBother_enabled-32.png";
 var iconLocalOff = "../res/icons/nBother_enabled_off-32.png";
 
+// start about.html
+function handleInstalled(details) {
+    browser.tabs.create({
+    url: "../html/about.html"
+    });
+}
+
+browser.runtime.onInstalled.addListener(handleInstalled);
 browser.tabs.onUpdated.addListener(verifyPage);
 
 function startnBother() {

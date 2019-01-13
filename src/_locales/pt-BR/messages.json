@@ -4,8 +4,8 @@
     "description": "Extension name."
   },
   "extensionDescription": {
-    "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!",
-    "description": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!"
+    "message": "Esta extensão funciona bloqueando notificações e solicitação de envio de notificações de sites.",
+    "description": "This add-on works by blocking notifications and push request for page notifications."
   },
   "extensionEnabled": {
     "message": "nBother Habilitado\n Clique para desabilitar",
@@ -14,5 +14,53 @@
   "extensionDisabled": {
     "message": "nBother Desabilitado\n Clique para habilitar",
     "description": "nBother Disabled\n Click to enable"
+  },
+  "works": {
+    "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!\nA extensão nBother bloqueia o funcionamento de web notifications, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada, em dispositivos móveis não é necessário abrir o gerenciador de extensões para ativá-la."
+  },
+  "about_title":{
+    "message": "Sobre"
+  },
+  "about":{
+    "message": "Sobre o nBother"
+  },
+  "note":{
+    "message": "<strong>Nota:</strong> Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jhonatasrm@gmail.com&lc=US&item_name=Donation+to+nBother&no_note=0&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>doação</a> ou análise em <a href='https://addons.mozilla.org/en-US/firefox/addon/nBother/'>addons.mozilla.org</a>. Obrigado! "
+  },
+  "release0": {
+    "message": "Lançamento"
+  },
+  "release0d": {
+    "message": "v1.0 (20 de Fevereiro de 2018)"
+  },
+  "release1": {
+    "message": "Corrigido compatibilidade da versão"
+  },
+  "release1d": {
+    "message": "v1.0.1 (20 de Fevereiro de 2018)"
+  },
+  "release2": {
+    "message": "A extensão inicia ativada<br>Correções menores"
+  },
+  "release2d": {
+    "message": "v1.1 (1 de Junho de 2018)"
+  },
+  "release3": {
+    "message": "Verificação de qual aba está ativada<br>Correções de inicio da extensão<br>Correções menores"
+  },
+  "release3d": {
+    "message": "v1.2 (2 de Janeiro de 2019)"
+  },
+  "release4": {
+    "message": "Suporte para o Firefox para Android<br>Nova página sobre a extensão<br>Correção de bugs menores"
+  },
+  "release4d": {
+    "message": "v1.3 (13 de Janeiro de 2019)"
+  },
+  "changelog": {
+    "message": "Alterações"
+  },
+  "bugs": {
+    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova <a href='https://www.github.com/jhonatasrm/nBother/issues'>issue</a>."
   }
 }
