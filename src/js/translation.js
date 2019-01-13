@@ -16,6 +16,8 @@ var release3 = document.getElementById("release3");
 var release3d = document.getElementById("release3d");
 var release4 = document.getElementById("release4");
 var release4d = document.getElementById("release4d");
+var release5 = document.getElementById("release5");
+var release5d = document.getElementById("release5d");
 
 bugs.textContent = browser.i18n.getMessage("bugs");
 works.textContent = browser.i18n.getMessage("works");
@@ -33,3 +35,5 @@ release3.textContent = browser.i18n.getMessage("release3");
 release3d.textContent = browser.i18n.getMessage("release3d");
 release4.textContent = browser.i18n.getMessage("release4");
 release4d.textContent = browser.i18n.getMessage("release4d");
+release5.textContent = browser.i18n.getMessage("release5");
+release5d.textContent = browser.i18n.getMessage("release5d");

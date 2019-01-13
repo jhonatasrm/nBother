@@ -57,6 +57,12 @@
   "release4d": {
     "message": "v1.3 (13 de Janeiro de 2019)"
   },
+  "release5": {
+    "message": "Correção bug da página de início"
+  },
+  "release5d": {
+    "message": "v1.3.1 (13 de Janeiro de 2019)"
+  },
   "changelog": {
     "message": "Alterações"
   },
