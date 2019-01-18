@@ -69,6 +69,12 @@
   "release6d": {
     "message": "v1.4 (January 13, 2019)"
   },
+  "release7": {
+    "message": "Security update"
+  },
+  "release7d": {
+    "message": "v1.5 (January 18, 2019)"
+  },
   "changelog": {
     "message": "Changelog"
   },
