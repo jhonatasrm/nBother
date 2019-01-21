@@ -40,19 +40,19 @@
     "message": "v1.0.1 (February 20, 2018)"
   },
   "release2": {
-    "message": "The Add-on starts enabled + Minor fixes"
+    "message": "The Add-on starts enabled \nMinor fixes"
   },
   "release2d": {
     "message": "v1.1 (June 1, 2018)"
   },
   "release3": {
-    "message": "Added active tab check + Add-on start corrections + Minor fixes"
+    "message": "Added active tab check \nAdd-on start corrections \nMinor fixes"
   },
   "release3d": {
     "message": "v1.2 (January 2, 2019)"
   },
   "release4": {
-    "message": "Support for Firefox for Android + New about page + Minor bug fixes"
+    "message": "Support for Firefox for Android \nNew about page \nMinor bug fixes"
   },
   "release4d": {
     "message": "v1.3 (January 13, 2019)"
@@ -64,7 +64,7 @@
     "message": "v1.3.1 (January 13, 2019)"
   },
     "release6": {
-    "message": "Performance improvements + Strings fixes"
+    "message": "Performance improvements \nStrings fixes"
   },
   "release6d": {
     "message": "v1.4 (January 13, 2019)"
@@ -80,6 +80,12 @@
   },
   "release8d": {
     "message": "v1.6 (January 20, 2019)"
+  },
+  "release9": {
+    "message": "Update page about"
+  },
+  "release9d": {
+    "message": "v1.7 (January 21, 2019)"
   },
   "changelog": {
     "message": "Changelog"

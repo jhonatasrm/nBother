@@ -16,7 +16,7 @@
     "description": "nBother Disabled\n Click to enable"
   },
   "works": {
-    "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!\nA extensão nBother bloqueia o funcionamento de web notifications, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada, em dispositivos móveis não é necessário abrir o gerenciador de extensões para ativá-la."
+      "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!\nA extensão nBother bloqueia o funcionamento de web notifications, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada, em dispositivos móveis não é necessário abrir o gerenciador de extensões para ativá-la."
   },
   "about_title":{
     "message": "Sobre"
@@ -40,19 +40,19 @@
     "message": "v1.0.1 (20 de Fevereiro de 2018)"
   },
   "release2": {
-    "message": "A extensão inicia ativada + Correções menores"
+    "message": "A extensão inicia ativada \nCorreções menores"
   },
   "release2d": {
     "message": "v1.1 (1 de Junho de 2018)"
   },
   "release3": {
-    "message": "Verificação de qual aba está ativada + Correções de inicio da extensão + Correções menores"
+    "message": "Verificação de qual aba está ativada \nCorreções de inicio da extensão \nCorreções menores"
   },
   "release3d": {
     "message": "v1.2 (2 de Janeiro de 2019)"
   },
   "release4": {
-    "message": "Suporte para o Firefox para Android + Nova página sobre a extensão + Correção de bugs menores"
+    "message": "Suporte para o Firefox para Android \nNova página sobre a extensão \nCorreção de bugs menores"
   },
   "release4d": {
     "message": "v1.3 (13 de Janeiro de 2019)"
@@ -64,7 +64,7 @@
     "message": "v1.3.1 (13 de Janeiro de 2019)"
   },
   "release6": {
-    "message": "Melhorias de desempenho + Correção de Strings"
+    "message": "Melhorias de desempenho \nCorreção de Strings"
   },
   "release6d": {
     "message": "v1.4 (13 de Janeiro de 2019)"
@@ -80,6 +80,12 @@
   },
   "release8d": {
     "message": "v1.6 (20 de Janeiro de 2019)"
+  },
+  "release9": {
+    "message": "Atualização página sobre"
+  },
+  "release9d": {
+    "message": "v1.7 (21 de Janeiro de 2019)"
   },
   "changelog": {
     "message": "Alterações"
