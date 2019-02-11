@@ -87,6 +87,12 @@
   "release9d": {
     "message": "v1.7 (21 de Janeiro de 2019)"
   },
+  "release10": {
+    "message": "Correção bug em dispositivos Android"
+  },
+  "release10d": {
+    "message": "v1.8 (11 de Fevereiro de 2019)"
+  },
   "changelog": {
     "message": "Alterações"
   },

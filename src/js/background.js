@@ -1,23 +1,35 @@
 var value = true;
+var isMobile;
 browser.browserSettings.webNotificationsDisabled.set({value: true});
 var iconLocal = "../res/icons/nBother_enabled-32.png";
 var iconLocalOff = "../res/icons/nBother_enabled_off-32.png";
 
-browser.tabs.onUpdated.addListener(verifyPage);
-browser.browserAction.onClicked.addListener(startnBother);
+window.onload = function() {
+    if (/Android/i.test(navigator.userAgent)) {
+        isMobile = true;
+    }else{
+        browser.browserAction.onClicked.addListener(startnBother);
+        browser.tabs.onUpdated.addListener(verifyPage);
+        isMobile = false;
+    }
+}
 
 function startnBother() {
   if(value == true){
     browser.browserSettings.webNotificationsDisabled.set({value: false});
     browser.browserAction.setIcon({path: "../res/icons/nBother_unabled-32.png"});
-    browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionDisabled")});
+    if(isMobile == false){
+        browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionDisabled")});
+    }
     value = false;
     iconLocalOff = "../res/icons/nBother_unabled_off-32.png";
     iconLocal = "../res/icons/nBother_unabled-32.png";
   }else{
     browser.browserSettings.webNotificationsDisabled.set({value: true});
     browser.browserAction.setIcon({path: "../res/icons/nBother_enabled-32.png"});
-    browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionEnabled")});
+    if(isMobile == false){
+        browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionEnabled")});
+    }
     value = true;
     iconLocalOff = "../res/icons/nBother_enabled_off-32.png";
     iconLocal = "../res/icons/nBother_enabled-32.png";
@@ -69,7 +81,6 @@ function verifyPage(){
         }
     });
 }
-
 
 // start about.html
 function handleInstalled(details) {
