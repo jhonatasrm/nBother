@@ -93,6 +93,12 @@
   "release10d": {
     "message": "v1.8 (February 11, 2019)"
   },
+  "release11": {
+    "message": "String Fixes \nMinor fixes"
+  },
+  "release11d": {
+    "message": "v1.9 (February 12, 2019)"
+  },
   "changelog": {
     "message": "Changelog"
   },
