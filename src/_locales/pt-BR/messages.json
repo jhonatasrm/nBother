@@ -104,5 +104,20 @@
   },
   "bugs": {
     "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova issue."
+  },
+  "numberNotifications": {
+    "message": "Notificações bloqueadas:"
+  },
+  "clear": {
+    "message": "Limpar"
+  },
+  "contextMenu": {
+    "message": "Menu de contexto"
+  },
+  "preferences": {
+    "message": "Preferências"
+  },
+  "version": {
+    "message":"nBother (v2.0)"
   }
 }

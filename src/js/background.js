@@ -1,6 +1,13 @@
 var value = true;
+var countBlock = 0;
 var isMobile;
+var myStorage = window.localStorage;
+var count = document.getElementById('count');
+
 browser.browserSettings.webNotificationsDisabled.set({value: true});
+browser.tabs.onUpdated.addListener(verifyPage);
+browser.tabs.onUpdated.addListener(verifyPageNotification);
+browser.runtime.onInstalled.addListener(handleInstalled);
 
 window.onload = function() {
     if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i)){
@@ -9,8 +16,12 @@ window.onload = function() {
     }else{
         browser.browserAction.onClicked.addListener(startnBother);
         browser.browserAction.setIcon({path: "../res/icons/nBother_enabled-32.png"});
-        browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionDisabled")});
-        browser.tabs.onUpdated.addListener(verifyPage);
+        browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionEnabled")});
+        if(value == true){
+            browser.browserAction.setIcon({path: "../res/icons/nBother_enabled-32.png"});
+        }else{
+            browser.browserAction.setIcon({path: "../res/icons/nBother_enabled_off-32.png"});
+        }
         isMobile = false;
     }
 }
@@ -83,8 +94,27 @@ function verifyPage(){
     });
 }
 
+function verifyPageNotification(){
+    navigator.permissions.query({name:'notifications'}).then(function(result) {
+        if (result.state == 'prompt') {
+            myStorage.setItem("countBlock", countBlock);
+            count.textContent = myStorage.getItem("countBlock");
+            countBlock = countBlock + 1;
+        }
+//   if(Notification.permission) {
+//       console.log('Blocked: ', countBlock);
+//       myStorage.setItem("countBlock", countBlock);
+//       count.textContent = myStorage.getItem("countBlock");
+//       countBlock = countBlock + 1;
+//    }else{
+//        count.textContent = countBlock;
+//        console.log('Blocked: ', countBlock);
+//    }
+});
+}
+
 // start about.html
-function handleInstalled(details) {
+function handleInstalled() {
     browser.tabs.create({
     url: "../html/about.html"
     });
@@ -92,8 +122,15 @@ function handleInstalled(details) {
 
 function isMobileAbout() {
     browser.tabs.create({
-    url: "../html/about.html"
+    url: "../html/preferences.html"
     });
 }
 
-browser.runtime.onInstalled.addListener(handleInstalled);
+count.textContent = myStorage.getItem("countBlock");
+
+document.getElementById('clearCount').addEventListener('click', function(){
+    countBlock = 0;
+    myStorage.setItem("countBlock", countBlock);
+    count.textContent = myStorage.getItem("countBlock");
+}, false);
+
