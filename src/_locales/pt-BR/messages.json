@@ -8,12 +8,12 @@
     "description": "This add-on works by blocking notifications and push request for page notifications."
   },
   "extensionEnabled": {
-    "message": "nBother Habilitado\n Clique para desabilitar",
-    "description": "nBother Enabled\n Click to disable"
+    "message": "nBother Habilitado\nClique para desabilitar",
+    "description": "nBother Enabled\nClick to disable"
   },
   "extensionDisabled": {
-    "message": "nBother Desabilitado\n Clique para habilitar",
-    "description": "nBother Disabled\n Click to enable"
+    "message": "nBother Desabilitado\nClique para habilitar",
+    "description": "nBother Disabled\nClick to enable"
   },
   "works": {
       "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!\nA extensão nBother bloqueia o funcionamento de web notifications, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada, em dispositivos móveis não é necessário abrir o gerenciador de extensões para ativá-la."

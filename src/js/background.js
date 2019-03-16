@@ -1,12 +1,11 @@
 var value = true;
-var countBlock = 0;
 var isMobile;
 var myStorage = window.localStorage;
-var count = document.getElementById('count');
+var iconLocalOff = "../res/icons/nBother_enabled_off-32.png";
+var iconLocal = "../res/icons/nBother_enabled-32.png";
 
 browser.browserSettings.webNotificationsDisabled.set({value: true});
 browser.tabs.onUpdated.addListener(verifyPage);
-browser.tabs.onUpdated.addListener(verifyPageNotification);
 browser.runtime.onInstalled.addListener(handleInstalled);
 
 window.onload = function() {
@@ -29,16 +28,18 @@ window.onload = function() {
 function startnBother() {
   if(value == true){
     browser.browserSettings.webNotificationsDisabled.set({value: false});
-    browser.browserAction.setIcon({path: "../res/icons/nBother_unabled-32.png"});
+    browser.browserAction.setIcon({path: "../res/icons/nBother_disabled-32.png"});
+    browser.tabs.reload();
     if(isMobile == false){
         browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionDisabled")});
     }
     value = false;
-    iconLocalOff = "../res/icons/nBother_unabled_off-32.png";
-    iconLocal = "../res/icons/nBother_unabled-32.png";
+    iconLocalOff = "../res/icons/nBother_disabled_off-32.png";
+    iconLocal = "../res/icons/nBother_disabled-32.png";
   }else{
     browser.browserSettings.webNotificationsDisabled.set({value: true});
     browser.browserAction.setIcon({path: "../res/icons/nBother_enabled-32.png"});
+    browser.tabs.reload();
     if(isMobile == false){
         browser.browserAction.setTitle({title: browser.i18n.getMessage("extensionEnabled")});
     }
@@ -94,25 +95,6 @@ function verifyPage(){
     });
 }
 
-function verifyPageNotification(){
-    navigator.permissions.query({name:'notifications'}).then(function(result) {
-        if (result.state == 'prompt') {
-            myStorage.setItem("countBlock", countBlock);
-            count.textContent = myStorage.getItem("countBlock");
-            countBlock = countBlock + 1;
-        }
-//   if(Notification.permission) {
-//       console.log('Blocked: ', countBlock);
-//       myStorage.setItem("countBlock", countBlock);
-//       count.textContent = myStorage.getItem("countBlock");
-//       countBlock = countBlock + 1;
-//    }else{
-//        count.textContent = countBlock;
-//        console.log('Blocked: ', countBlock);
-//    }
-});
-}
-
 // start about.html
 function handleInstalled() {
     browser.tabs.create({
@@ -122,15 +104,6 @@ function handleInstalled() {
 
 function isMobileAbout() {
     browser.tabs.create({
-    url: "../html/preferences.html"
+    url: "../html/about.html"
     });
 }
-
-count.textContent = myStorage.getItem("countBlock");
-
-document.getElementById('clearCount').addEventListener('click', function(){
-    countBlock = 0;
-    myStorage.setItem("countBlock", countBlock);
-    count.textContent = myStorage.getItem("countBlock");
-}, false);
-

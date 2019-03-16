@@ -8,12 +8,12 @@
     "description": "This add-on works by blocking notifications and push request for page notifications."
   },
   "extensionEnabled": {
-    "message": "nBother Enabled\n Click to disable",
-    "description": "nBother Enabled\n Click to disable"
+    "message": "nBother Enabled\nClick to disable",
+    "description": "nBother Enabled\nClick to disable"
   },
   "extensionDisabled": {
-    "message": "nBother Disabled\n Click to enable",
-    "description": "nBother Disabled\n Click to enable"
+    "message": "nBother Disabled\nClick to enable",
+    "description": "nBother Disabled\nClick to enable"
   },
   "works": {
     "message": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!\nThe nBother add-on works by blocking the operation of web notifications, and can be activated in the toolbar by clicking on the shield icon, when it is green it is turned on and red turned off. The add-on starts by default enabled, on mobile devices you do not need to open the Add-ons Manager to activate it."

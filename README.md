@@ -1,6 +1,6 @@
-[<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/nBother.svg">](https://img.shields.io/github/license/jhonatasrm/nBother.svg)
-[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/nBother.svg">](https://img.shields.io/github/issues/jhonatasrm/nBother.svg)
-[<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/nBother.svg">](https://img.shields.io/github/issues/jhonatasrm/nBother.svg)
+[<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/nBother.svg">](https://img.shields.io/github/issues/jhonatasrm/nBother.svg)
+[<img align="right" src="https://img.shields.io/github/license/jhonatasrm/nBother.svg">](https://img.shields.io/github/license/jhonatasrm/nBother.svg)
+[<img align="right" src="https://img.shields.io/github/forks/jhonatasrm/nBother.svg">](https://img.shields.io/github/forks/jhonatasrm/nBother.svg)
 [<img align="right" src="https://img.shields.io/github/stars/jhonatasrm/nBother.svg">](https://img.shields.io/github/stars/jhonatasrm/nBother.svg)
 [<img align="right" src="https://img.shields.io/github/release/jhonatasrm/nBother.svg">](https://img.shields.io/github/release/jhonatasrm/nBother.svg)
 
