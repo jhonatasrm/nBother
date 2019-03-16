@@ -4,19 +4,28 @@
     "description": "Extension name."
   },
   "extensionDescription": {
-    "message": "Esta extensão funciona bloqueando notificações e solicitação de envio de notificações de sites.",
-    "description": "This add-on works by blocking notifications and push request for page notifications."
+    "message": "Esta extensão funciona bloqueando notificações Web Push de sites."
   },
   "extensionEnabled": {
-    "message": "nBother Habilitado\nClique para desabilitar",
-    "description": "nBother Enabled\nClick to disable"
+    "message": "nBother Habilitado\nClique para desabilitar"
   },
   "extensionDisabled": {
-    "message": "nBother Desabilitado\nClique para habilitar",
-    "description": "nBother Disabled\nClick to enable"
+    "message": "nBother Desabilitado\nClique para habilitar"
   },
   "works": {
-      "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso!\nA extensão nBother bloqueia o funcionamento de web notifications, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada, em dispositivos móveis não é necessário abrir o gerenciador de extensões para ativá-la."
+      "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso! A extensão nBother bloqueia o funcionamento de <a href='https://en.wikipedia.org/wiki/Push_technology'>notificações Web Push</a>, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada em dispositivos móveis, não sendo necessário abrir o gerenciador de extensões para ativá-la."
+  },
+  "resources": {
+    "message": "A extensão possui atualmente os seguintes recursos:"
+  },
+  "resources1": {
+    "message": "1. Desativa automaticamente as notificações Web Push (Desktop/Android)"
+  },
+  "resources2": {
+    "message": "2. Habilita e desabilita o recebimento de notificações Web Push (Desktop)"
+  },
+  "resources3": {
+    "message": "3. Recarrega a página para alterar a sua configuração após clicar no ícone da extensão (Desktop)"
   },
   "about_title":{
     "message": "Sobre"
@@ -25,99 +34,9 @@
     "message": "Sobre o nBother"
   },
   "note":{
-    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena doação ou análise em addons.mozilla.org. Obrigado! "
-  },
-  "release0": {
-    "message": "Lançamento"
-  },
-  "release0d": {
-    "message": "v1.0 (20 de Fevereiro de 2018)"
-  },
-  "release1": {
-    "message": "Corrigido compatibilidade da versão"
-  },
-  "release1d": {
-    "message": "v1.0.1 (20 de Fevereiro de 2018)"
-  },
-  "release2": {
-    "message": "A extensão inicia ativada \nCorreções menores"
-  },
-  "release2d": {
-    "message": "v1.1 (1 de Junho de 2018)"
-  },
-  "release3": {
-    "message": "Verificação de qual aba está ativada \nCorreções de inicio da extensão \nCorreções menores"
-  },
-  "release3d": {
-    "message": "v1.2 (2 de Janeiro de 2019)"
-  },
-  "release4": {
-    "message": "Suporte para o Firefox para Android \nNova página sobre a extensão \nCorreção de bugs menores"
-  },
-  "release4d": {
-    "message": "v1.3 (13 de Janeiro de 2019)"
-  },
-  "release5": {
-    "message": "Correção bug da página de início"
-  },
-  "release5d": {
-    "message": "v1.3.1 (13 de Janeiro de 2019)"
-  },
-  "release6": {
-    "message": "Melhorias de desempenho \nCorreção de Strings"
-  },
-  "release6d": {
-    "message": "v1.4 (13 de Janeiro de 2019)"
-  },
-  "release7": {
-    "message": "Atualização de segurança"
-  },
-  "release7d": {
-    "message": "v1.5 (18 de Janeiro de 2019)"
-  },
-  "release8": {
-    "message": "Atualização de segurança"
-  },
-  "release8d": {
-    "message": "v1.6 (20 de Janeiro de 2019)"
-  },
-  "release9": {
-    "message": "Atualização página sobre"
-  },
-  "release9d": {
-    "message": "v1.7 (21 de Janeiro de 2019)"
-  },
-  "release10": {
-    "message": "Correção bug em dispositivos Android"
-  },
-  "release10d": {
-    "message": "v1.8 (11 de Fevereiro de 2019)"
-  },
-  "release11": {
-    "message": "Correção de strings \nCorreções menores"
-  },
-  "release11d": {
-    "message": "v1.9 (12 de Fevereiro de 2019)"
-  },
-  "changelog": {
-    "message": "Alterações"
+    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jhonatasrm@gmail.com&lc=US&item_name=Donation+to+nBother&no_note=0&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>doação</a> ou análise em <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Obrigado! "
   },
   "bugs": {
-    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova issue."
-  },
-  "numberNotifications": {
-    "message": "Notificações bloqueadas:"
-  },
-  "clear": {
-    "message": "Limpar"
-  },
-  "contextMenu": {
-    "message": "Menu de contexto"
-  },
-  "preferences": {
-    "message": "Preferências"
-  },
-  "version": {
-    "message":"nBother (v2.0)"
+    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova <a href='https://github.com/jhonatasrm/nBother/issues'>issue</a>."
   }
 }

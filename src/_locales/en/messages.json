@@ -4,19 +4,28 @@
     "description": "Extension name."
   },
   "extensionDescription": {
-    "message": "This add-on works by blocking notifications and push request for page notifications.",
-    "description": "This add-on works by blocking notifications and push request for page notifications."
+    "message": "This add-on works blocking Web Push notifications from Web sites."
   },
   "extensionEnabled": {
-    "message": "nBother Enabled\nClick to disable",
-    "description": "nBother Enabled\nClick to disable"
+    "message": "nBother Enabled\nClick to disable"
   },
   "extensionDisabled": {
-    "message": "nBother Disabled\nClick to enable",
-    "description": "nBother Disabled\nClick to enable"
+    "message": "nBother Disabled\nClick to enable"
   },
   "works": {
-    "message": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!\nThe nBother add-on works by blocking the operation of web notifications, and can be activated in the toolbar by clicking on the shield icon, when it is green it is turned on and red turned off. The add-on starts by default enabled, on mobile devices you do not need to open the Add-ons Manager to activate it."
+    "message": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore! The nBother add-on works by blocking the operation of <a href='https://en.wikipedia.org/wiki/Push_technology'>Web Push notifications</a>, and can be activated in the toolbar by clicking on the shield icon, when it is green it is turned on and red turned off. The add-on starts by default enabled on mobile devices you do not need to open the Add-ons Manager to activate it."
+  },
+  "resources": {
+    "message": "The Add-on currently has the following features:"
+  },
+  "resources1": {
+    "message": "1. Automatically disables Web Push notifications (Desktop/Android)"
+  },
+  "resources2": {
+    "message": "2. Enables and disables receiving Web Push notifications (Desktop)"
+  },
+  "resources3": {
+    "message": "3. Reloads the page to change the configuration after clicking the Add-on icon (Desktop)"
   },
   "about_title":{
     "message": "About"
@@ -25,99 +34,9 @@
     "message": "About nBother"
   },
   "note":{
-    "message": "Note: This Add-on is completely free! Please consider make a small donation or write an review at addons.mozilla.org. Thank you!"
-  },
-  "release0": {
-    "message": "Release"
-  },
-  "release0d": {
-    "message": "v1.0 (February 20, 2018)"
-  },
-  "release1": {
-    "message": "Fix compatibility version"
-  },
-  "release1d": {
-    "message": "v1.0.1 (February 20, 2018)"
-  },
-  "release2": {
-    "message": "The Add-on starts enabled \nMinor fixes"
-  },
-  "release2d": {
-    "message": "v1.1 (June 1, 2018)"
-  },
-  "release3": {
-    "message": "Added active tab check \nAdd-on start corrections \nMinor fixes"
-  },
-  "release3d": {
-    "message": "v1.2 (January 2, 2019)"
-  },
-  "release4": {
-    "message": "Support for Firefox for Android \nNew about page \nMinor bug fixes"
-  },
-  "release4d": {
-    "message": "v1.3 (January 13, 2019)"
-  },
-  "release5": {
-    "message": "Fix bug start page"
-  },
-  "release5d": {
-    "message": "v1.3.1 (January 13, 2019)"
-  },
-    "release6": {
-    "message": "Performance improvements \nStrings fixes"
-  },
-  "release6d": {
-    "message": "v1.4 (January 13, 2019)"
-  },
-  "release7": {
-    "message": "Security update"
-  },
-  "release7d": {
-    "message": "v1.5 (January 18, 2019)"
-  },
-  "release8": {
-    "message": "Security update"
-  },
-  "release8d": {
-    "message": "v1.6 (January 20, 2019)"
-  },
-  "release9": {
-    "message": "Update page about"
-  },
-  "release9d": {
-    "message": "v1.7 (January 21, 2019)"
-  },
-  "release10": {
-    "message": "Fix bug on Android devices"
-  },
-  "release10d": {
-    "message": "v1.8 (February 11, 2019)"
-  },
-  "release11": {
-    "message": "String fixes \nMinor fixes"
-  },
-  "release11d": {
-    "message": "v1.9 (February 12, 2019)"
-  },
-  "changelog": {
-    "message": "Changelog"
+    "message": "Note: This Add-on is completely free! Please consider make a small <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jhonatasrm@gmail.com&lc=US&item_name=Donation+to+nBother&no_note=0&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>donation</a> or write an review at <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Thank you!"
   },
   "bugs": {
-    "message": "If you find any bugs, have any suggestions or some ideas for this add-on: Please create a new issue."
-  },
-  "numberNotifications": {
-    "message": "Notifications blocked:"
-  },
-  "clear": {
-    "message": "Clear"
-  },
-  "preferences": {
-    "message": "Preferences"
-  },
-  "contextMenu": {
-    "message": "Context menu"
-  },
-  "version": {
-    "message":"nBother (v2.0)"
+    "message": "If you find any bugs, have any suggestions or some ideas for this add-on: Please create a new <a href='https://github.com/jhonatasrm/nBother/issues'>issue</a>."
   }
 }
