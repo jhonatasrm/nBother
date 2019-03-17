@@ -9,7 +9,7 @@
 
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
-![nBother Screenshot](nBother.gif)
+![nBother Screenshot](web_push_notification.png)
 
 ## Requirements
 
