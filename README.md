@@ -5,7 +5,8 @@
 [<img align="right" src="https://img.shields.io/github/release/jhonatasrm/nBother.svg">](https://img.shields.io/github/release/jhonatasrm/nBother.svg)
 
 ![nBother](src/res/icons/icon@2x.png)
-# nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
+# nBother <a href='https://ko-fi.com/S6S5S3WU' target='_blank'><img align="right" height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>[<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
+
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
 ![nBother Screenshot](nBother.gif)
@@ -27,15 +28,6 @@ Tired of receiving page notifications or being bothered by them asking permissio
 ## How Contribute
 
 Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/nBother/issues).
-
-### Donate
-Would you like to contribute to the development of this and other add-ons that can be found <a href="https://addons.mozilla.org/en-US/firefox/user/13670188/">here</a> ? 
-
-I would be very happy if you can contribute, any value will surely be of great help.
-
-Thank you so much for helping me continue developing this and other add-ons! <3
-
-You can donate via Paypal <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jhonatasrm@gmail.com&lc=US&item_name=Donation+to+nBother&no_note=0&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">here</a>. Thanks again! 
 
 ## Learn More
 To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
