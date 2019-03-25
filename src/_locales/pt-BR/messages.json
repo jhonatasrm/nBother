@@ -34,7 +34,7 @@
     "message": "Sobre o nBother"
   },
   "note":{
-    "message": "Nota: Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.ko-fi.com/jhonatasrm'>doação</a> ou análise em <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Obrigado! "
+    "message": "<strong>Nota:</strong> Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.ko-fi.com/jhonatasrm'>doação</a> ou análise em <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Obrigado! "
   },
   "bugs": {
     "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova <a href='https://github.com/jhonatasrm/nBother/issues'>issue</a>."
