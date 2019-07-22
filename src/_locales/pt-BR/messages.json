@@ -11,32 +11,5 @@
   },
   "extensionDisabled": {
     "message": "nBother Desabilitado\nClique para habilitar"
-  },
-  "works": {
-      "message": "Cansado de receber notificações de páginas ou ser incomodado por elas pedindo permissão para enviar notificações? Não se incomode mais com isso! A extensão nBother bloqueia o funcionamento de <a href='https://en.wikipedia.org/wiki/Push_technology'>notificações Web Push</a>, podendo ser ativada na barra de ferramentas ao clicar no ícone de escudo, quando o mesmo estiver verde ela está ativada e vermelho desativada. A extensão inicia por padrão ativada em dispositivos móveis, não sendo necessário abrir o gerenciador de extensões para ativá-la."
-  },
-  "resources": {
-    "message": "A extensão possui atualmente os seguintes recursos:"
-  },
-  "resources1": {
-    "message": "1. Desativa automaticamente as notificações Web Push (Desktop/Android)"
-  },
-  "resources2": {
-    "message": "2. Habilita e desabilita o recebimento de notificações Web Push (Desktop)"
-  },
-  "resources3": {
-    "message": "3. Recarrega a página para alterar a sua configuração após clicar no ícone da extensão (Desktop)"
-  },
-  "about_title":{
-    "message": "Sobre"
-  },
-  "about":{
-    "message": "Sobre o nBother"
-  },
-  "note":{
-    "message": "<strong>Nota:</strong> Esta extensão é totalmente gratuita! Por favor, considere fazer uma pequena <a href='https://www.ko-fi.com/jhonatasrm'>doação</a> ou análise em <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Obrigado! "
-  },
-  "bugs": {
-    "message": "Se você encontrar algum bug, tiver sugestões ou algumas idéias para esta extensão. Por favor, crie uma nova <a href='https://github.com/jhonatasrm/nBother/issues'>issue</a>."
   }
 }

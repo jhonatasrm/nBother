@@ -6,11 +6,9 @@ var iconLocal = "../res/icons/nBother_enabled-32.png";
 
 browser.browserSettings.webNotificationsDisabled.set({value: true});
 browser.tabs.onUpdated.addListener(verifyPage);
-browser.runtime.onInstalled.addListener(handleInstalled);
 
 window.onload = function() {
     if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i)){
-        browser.browserAction.onClicked.addListener(isMobileAbout);
         isMobile = true;
     }else{
         browser.browserAction.onClicked.addListener(startnBother);
@@ -92,18 +90,5 @@ function verifyPage(){
         }else{
             browser.browserAction.setIcon({path: iconLocal});
         }
-    });
-}
-
-// start about.html
-function handleInstalled() {
-    browser.tabs.create({
-    url: "../html/about.html"
-    });
-}
-
-function isMobileAbout() {
-    browser.tabs.create({
-    url: "../html/about.html"
     });
 }

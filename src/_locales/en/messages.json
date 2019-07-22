@@ -11,32 +11,5 @@
   },
   "extensionDisabled": {
     "message": "nBother Disabled\nClick to enable"
-  },
-  "works": {
-    "message": "Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore! The nBother add-on works by blocking the operation of <a href='https://en.wikipedia.org/wiki/Push_technology'>Web Push notifications</a>, and can be activated in the toolbar by clicking on the shield icon, when it is green it is turned on and red turned off. The add-on starts by default enabled on mobile devices you do not need to open the Add-ons Manager to activate it."
-  },
-  "resources": {
-    "message": "The Add-on currently has the following features:"
-  },
-  "resources1": {
-    "message": "1. Automatically disables Web Push notifications (Desktop/Android)"
-  },
-  "resources2": {
-    "message": "2. Enables and disables receiving Web Push notifications (Desktop)"
-  },
-  "resources3": {
-    "message": "3. Reloads the page to change the configuration after clicking the Add-on icon (Desktop)"
-  },
-  "about_title":{
-    "message": "About"
-  },
-  "about":{
-    "message": "About nBother"
-  },
-  "note":{
-    "message": "<strong>Note:</strong> This Add-on is completely free! Please consider make a small <a href='https://www.ko-fi.com/jhonatasrm'>donation</a> or write an review at <a href='https://addons.mozilla.org/en-US/firefox/addon/nbother/'>addons.mozilla.org</a>. Thank you!"
-  },
-  "bugs": {
-    "message": "If you find any bugs, have any suggestions or some ideas for this Add-on: Please create a new <a href='https://github.com/jhonatasrm/nBother/issues'>issue</a>."
   }
 }
