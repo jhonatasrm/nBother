@@ -16,11 +16,8 @@ Tired of receiving page notifications or being bothered by them asking permissio
 ## How to test this Add-on
 
 1. Clone this repository git clone ```https://github.com/jhonatasrm/nBother.git```
-
 2. In the Firefox address bar type ```about:debugging```
-
 3. Click ```Load Temporary Add-on```, a dialog window opens
-
 4. In the cloned repository, select the ```manifest.json``` file. The webextension icon will appear in your toolbar
 
 ## How Contribute
