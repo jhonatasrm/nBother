@@ -21,12 +21,17 @@ Tired of receiving page notifications or being bothered by them asking permissio
 4. In the cloned repository, select the ```manifest.json``` file. The webextension icon will appear in your toolbar
 
 ## How Contribute
-Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/nBother/issues)
+Have a suggestion, doubt or encountered an error? Please open a new [issue](https://github.com/jhonatasrm/nBother/issues).
 
-Contributions are welcome, feel free to submit a pull :)
+Contributions are welcome, feel free to submit a pull. :)
 
 ## Learn More
-To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions)
+To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
+
+## Future updates
+As many sites display notification requests to users to be able to send push notifications, [Firefox 72.0](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/) + now displays an icon builtin.
+
+This Add-on brought that proposal of enabling or not the notifications in a easy way, but now with this new feature in Firefox, I will keep just security updates.
 
 ### License
-This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/nBother/blob/master/LICENSE)
+This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/nBother/blob/master/LICENSE).
