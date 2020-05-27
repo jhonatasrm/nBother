@@ -8,6 +8,12 @@
 # nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
+## Note
+As many sites display notification requests to users to be able to send push notifications, [Firefox 72.0](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/) + now displays an icon builtin.
+
+This Add-on brought that proposal of enabling or not the notifications in a easy way, but now with this new feature in Firefox, I will keep just security updates.
+
+
 ![nBother Screenshot](web_push_notification.png)
 
 ## Requirements
@@ -27,11 +33,6 @@ Contributions are welcome, feel free to submit a pull. :)
 
 ## Learn More
 To learn more about webextensions development, see this [Mozilla developer Network documentation](https://developer.mozilla.org/en-US/Add-ons/WebExtensions).
-
-## Future updates
-As many sites display notification requests to users to be able to send push notifications, [Firefox 72.0](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/) + now displays an icon builtin.
-
-This Add-on brought that proposal of enabling or not the notifications in a easy way, but now with this new feature in Firefox, I will keep just security updates.
 
 ### License
 This repository is available under the [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/nBother/blob/master/LICENSE).
