@@ -7,7 +7,7 @@
 [<img align="right" src="https://img.shields.io/github/release/jhonatasrm/nBother.svg">](https://github.com/jhonatasrm/nBother/releases)
 
 ![nBother](src/res/icons/icon@2x.png)
-# nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/en-US/firefox/addon/nbother/)
+# nBother [<img align="right" src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png">](https://addons.mozilla.org/firefox/addon/nbother/)
 Tired of receiving page notifications or being bothered by them asking permission to send notifications? Don't bother with that anymore!
 
 ![nBother Screenshot](web_push_notification.png)
