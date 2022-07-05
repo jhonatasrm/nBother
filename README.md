@@ -1,4 +1,11 @@
 <img style="position:absolute;z-index:1001;width:150px;height:150px;" src="https://i.ibb.co/RCKf6pH/discontinued.png" alt="discontinued" border="0">
+<br><br><br><br><br><br><br>
+
+``` 
+NOTE
+As many sites display notification requests to users to be able to send push notifications, Firefox 72.0 + now displays an icon built-in. This Add-on brought a proposal of enabling or not the notifications in an easy way, but now with this new feature in Firefox, it was discontinued.
+```
+
 
 [<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/nBother.svg">](https://github.com/jhonatasrm/nBother/issues)
 [<img align="right" src="https://img.shields.io/github/license/jhonatasrm/nBother.svg">](https://github.com/jhonatasrm/nBother/blob/master/LICENSE)
@@ -14,12 +21,6 @@ Tired of receiving page notifications or being bothered by them asking permissio
 
 ## Requirements
 * Firefox 58.0 or later
-
-
-## Note
-As many sites display notification requests to users to be able to send push notifications, [Firefox 72.0](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/) + now displays an icon builtin.
-
-This Add-on brought that proposal of enabling or not the notifications in a easy way, but now with this new feature in Firefox, I will keep just security updates.
 
 ## How to test this Add-on
 
