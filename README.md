@@ -1,10 +1,10 @@
 <img style="position:absolute;z-index:1001;width:150px;height:150px;" src="https://i.ibb.co/RCKf6pH/discontinued.png" alt="discontinued" border="0">
-<br><br><br><br><br><br><br>
 
-``` 
-NOTE
-As many sites display notification requests to users to be able to send push notifications, Firefox 72.0 + now displays an icon built-in. This Add-on brought a proposal of enabling or not the notifications in an easy way, but now with this new feature in Firefox, it was discontinued.
-```
+
+<h2 style="color:red">NOTE</h2>
+<h3 style="color:red">
+As many sites display notification requests to users to be able to send push notifications, Firefox 72.0 + now displays an icon built-in. <br>This Add-on brought a proposal of enabling or not the notifications in an easy way, but now with this new feature in Firefox, it was discontinued.
+<h3>
 
 
 [<img align="right" src="https://img.shields.io/github/issues/jhonatasrm/nBother.svg">](https://github.com/jhonatasrm/nBother/issues)
